@@ -9,16 +9,16 @@ export const styles = StyleSheet.create({
 
     image: {
         width: '100%',
-        height: 350
+        height: 430
     },
 
     button: {
         position:'relative',
-        top: 120,
-        right: '80%',
+        top: 165,
+        right: '68%',
         bottom: 80,
-        width: 155,
-        padding: 10,
+        width: 170,
+        padding: 12,
         backgroundColor: '#000',
         alignItems: 'center',
     },
