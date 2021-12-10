@@ -1,21 +1,32 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StatusBar } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import Nav from './src/components/Home/Nav';
+import HeaderImage from './src/components/Home/HeaderImage'
+import RoundedCard from './src/components/Home/RoundedCard';
+import CircleImages from './src/components/Home/CircleImages';
+import Footer from './src/components/Home/Footer';
+
+export default function Home() {
+
+    return (
+      <>
+        <Nav />
+
+        <ScrollView>
+
+          <StatusBar
+            barStyle='dark-content'
+            backgroundColor='transparent'
+          />
+
+          <HeaderImage />
+          <CircleImages />
+          <RoundedCard />
+          
+        </ScrollView>
+
+        <Footer />
+      </>
+    );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
