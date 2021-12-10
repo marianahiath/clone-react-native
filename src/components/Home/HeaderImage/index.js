@@ -14,7 +14,7 @@ export default function HeaderImage() {
             <View style={styles.container}>
 
                 <Image source={{
-                    uri: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
+                    uri: 'https://images.unsplash.com/photo-1542037012038-5f9fb2b3c681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGZhbWlseXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
                 }}  style={styles.image} />
 
                 <TouchableOpacity style={styles.button}>
