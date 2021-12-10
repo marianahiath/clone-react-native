@@ -1,7 +1,8 @@
-## clone de interface com react native
+# clone de interface com react native
 
 Atividade da disciplina de Desenvolvimento de Aplicativo Mobile com React Native - [Serratec](http://serratec.org/)
 
+## resultado
 
 original          |  clone
 :-------------------------:|:-------------------------:
