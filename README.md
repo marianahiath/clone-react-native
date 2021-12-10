@@ -2,7 +2,7 @@
 
 Atividade da disciplina de Desenvolvimento de Aplicativo Mobile com React Native - [Serratec](http://serratec.org/)
 
-## resultado
+## resultado:
 
 original          |  clone
 :-------------------------:|:-------------------------:
